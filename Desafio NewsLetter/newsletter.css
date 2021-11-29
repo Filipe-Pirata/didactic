@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  repeat: no-repeat;
+  margin: 0px;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.geral {
+  background-color: #121214;
+  width: 50%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  padding: 2rem 0 0 2rem;
+}
+
+* {
+  color: #e1e1e6;
+  font-family: 'Spartan', 'sans-serif';
+}
+
+h1 {
+  color: #04d361;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.container {
+  margin-bottom: 60px;
+  width: 83%;
+  font-size: 16px;
+}
+
+.formgroup {
+  display: flex;
+  align-items: center;
+}
+
+.titleemail {
+  color: #a8a8a8;
+  margin-bottom: 200px;
+  font-weight: 700;
+}
+
+.caixaemail {
+  width: 900px;
+  height: 40px;
+  color: #a8a8a8;
+  /* margin-top: 20px; */
+  /*margin-bottom: 50px;
+  margin-right: 0px; */
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #8257e5;
+  height: 46px;
+  width: 48px;
+  /* margin-top: 20px; */
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button img {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+:root {
+  /* --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5; */
+}
+
+.logo {
+  height: 150px;
+  margin-bottom: 100px;
+}
+
+.center-cropped {
+  /* position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('./assets/read_news.jpg');
+  background-size: 1500px;
+  z-index: -1; */
+
+  width: 50%;
+  height: 100vh;
+}
+.center-cropped img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
